@@ -56,9 +56,17 @@ body{
 }
 
 .container{
-	display: block;
 	max-width:1296px;
 	margin: 0 auto;
+}
+
+@media(max-width:767px){
+    .container {
+        padding: 0 12px;
+		margin: 0 auto; 
+		max-width: 100%;
+    }
+
 }
 
 .navbar{
@@ -90,10 +98,25 @@ body{
 	padding-left: 20px;
 }
 
+.rwd-navbar-icon{
+	display:block ;
+	width:18px;
+	height:12px;
+	padding: 34px 23px;
+}
 
+@media(min-width:767px){
+    .rwd-navbar-icon {
+		display: none;
+    }
+	
+}
 
-
-
+@media(max-width:767px){
+    .navbar-link {
+		display: none;
+    }
+}
 
 
 .head{
@@ -134,6 +157,25 @@ body{
 	justify-content:end;
 }
 
+@media(max-width:767px){
+    .head h1{
+		color: #FFFFFF;
+		font-size:48px;
+		font-weight: 900;
+		line-height: 120%;
+		padding-right: 99px;
+	}
+	.head-img{
+		height: 117px;
+		justify-content: center;
+		margin-top: 180px;
+	}
+	.head-img-grass{
+		justify-content:center;
+	}
+}
+
+
 /* section 2 / Banner part */
 .banner{
 	display: flex;
@@ -162,6 +204,33 @@ body{
 	margin-top: 80px;
 	justify-content: space-between;
 }
+
+@media(max-width:767px){
+    .banner{
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: flex-start
+	}
+	.banner h3{
+		color: #FFFFFF;
+		font-size: 20px;
+		line-height: 120%;
+		font-weight: 900;
+		margin-bottom: 24px;
+	}
+
+	.banner h2{
+		color: #FFFFFF;
+		font-weight: 900;
+		font-size: 32px;
+		line-height: 120%;
+		height: 190px;
+		max-width: 90%;
+
+	}
+}
+
+
 
 .service-list{
 	display: flex;
