@@ -690,6 +690,14 @@ transform: rotate(-180deg);
 	text-decoration: none;
 }
 
+@media(max-width:767px){
+	.section-4-intro-bg {
+		background: #FFFFFF;
+		border-radius: 80px;
+	}
+}
+
+
 /* section 5 */
 
 .service-start{
