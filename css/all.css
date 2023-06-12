@@ -352,7 +352,10 @@ transform: rotate(-180deg);
 }
 
 .comments {
+	display: flex;
+	flex-wrap: wrap;
     margin-top: 160px;
+	
 	
 }
 
@@ -363,6 +366,8 @@ transform: rotate(-180deg);
 	justify-content: space-between;
 	width: 1296px;
 	margin-bottom: 160px;
+	flex-wrap: wrap;
+		
 }
  
 .comment-record {
