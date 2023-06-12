@@ -52,12 +52,12 @@ table {
 body{
 	background: #020202;
 	font-family: "Noto Sans TC", sans-serif;
-	list-style:none ;
 }
 
 .container{
-	max-width:1296px;
-	margin: 0 auto;
+	max-width: 1326px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 @media(max-width:767px){
@@ -236,9 +236,9 @@ body{
 		flex-direction: row;
 		flex-wrap: wrap;
 		align-items: center;
+		
 	}
 }
-
 
 
 .service-list{
@@ -247,7 +247,9 @@ body{
 	flex-wrap: wrap;
 	align-items: flex-start;
 	padding: 0px;
-	gap: 24px;
+	justify-content:space-between;
+	gap: 12px;
+	max-width: 1296px;
 }
 
 .service{
@@ -342,6 +344,13 @@ transform: rotate(-180deg);
 
 /* section 3 - comments */
 
+@media(max-width:767px){
+	.comments {
+		margin-top: 48px;
+		
+	}
+}
+
 .comments {
     margin-top: 160px;
 	
@@ -352,8 +361,8 @@ transform: rotate(-180deg);
 	text-align: left;
 	position: relative;
 	justify-content: space-between;
-	position: absolute;
 	width: 1296px;
+	margin-bottom: 160px;
 }
  
 .comment-record {
@@ -526,11 +535,11 @@ transform: rotate(-180deg);
 
 /* Task 1/ section 4 */
 
-.section-4{
+/* .section-4{
 	overflow: hidden;
 	margin-top: 720px;
 	margin-bottom: 160px;
-}
+} */
 
 .AI-applications{
 	background-color: #FFFFFF;
