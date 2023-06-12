@@ -58,6 +58,7 @@ body{
 	max-width: 1326px;
     margin: 0 auto;
     padding: 0 15px;
+	
 }
 
 @media(max-width:767px){
@@ -255,7 +256,7 @@ body{
 	padding: 0px;
 	justify-content:space-between;
 	gap: 12px;
-	max-width: 1296px;
+	/* min-width: 1296px; */
 }
 
 .service{
@@ -300,23 +301,26 @@ body{
 
 .cooperation h3{
 	color: #FFFFFF;
-	width: 1296px;
+	/* max-width: 1296px; */
 	height: 38px;
 	font-weight: 900;
 	font-size: 32px;
 	line-height: 120%;	
 	margin-bottom: 80px;
 }
-
+.partner-list{
+	overflow-x: hidden;
+}
 .co-logo{
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: center;
 	justify-content: space-between;
-	width: 100%;
+	min-width: 100%;
 	height: 40px;
 	margin-right:20px;
 	margin-bottom: 20px;
+
 }
 
 .logos {
@@ -381,7 +385,7 @@ transform: rotate(-180deg);
 	text-align: left;
 	position: relative;
 	justify-content: space-between;
-	width: 1296px;
+	/* min-width: 1296px; */
 	margin-bottom: 160px;
 	flex-wrap: wrap;
 		
@@ -566,7 +570,7 @@ transform: rotate(-180deg);
 .AI-applications{
 	background-color: #FFFFFF;
 	display: flex;
-	/* max-width: 1296px; */
+	/* width: 1296px; */
 	flex-wrap: wrap;	
 	justify-content: space-between;
 	gap:24px;
